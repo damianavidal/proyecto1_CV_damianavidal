@@ -1,0 +1,40 @@
+
+
+body {
+   
+    box-shadow: 5px 5px 5px 0px rgb(9, 26, 121);
+    font-family: Verdana;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 5% 15% 10% 5%;
+      
+    background-color: cornflowerblue;
+    color: white;
+    text-align:center 
+
+   
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2327;
+    padding-block: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    border-color: var(--azul_oscuro);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2rem;
+    font-weight: 700;
+    padding: 3px 3px;
+}
+

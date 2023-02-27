@@ -1,13 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width", initial-scale=1.0">
-    <title>Document</title>
+    <title>Cv-document</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <link rel="icon" type="image/jpeg" href="imagenes/favicon.jpg">
+     
 </head>
 <body>
-    <h1>hola</h1>
-    <h2>xxxx</h2>
+    
+
+    <script src="js/funcion.js"></script>
+
+    <img src="imagenes/foto_cv.jpg"
+    style="max-width:20%;height:auto;>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">Mi CV</a>
+        </div>
+        <input type="checkbox" id="toggler">
+        <label for="toggler" class="navbar-label fas fa-bars fa-inverse fa-lg"></label>
+        <ul class="list menu">
+            <li class="nav-item">
+                <a class="nav-link" href="#about-me">Acerca de mí</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#education">Educación</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#experience">Experiencia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#idiomas">Idiomas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portafolio</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1><u>Curriculum Vitae</u></h1>
+
+    <h2><u>Información personal</u></h2>
+    <button onclick="FunctionInfo()">+/-</button>
+
+    <div id="info">
+        
+        <p><b>▪ Apellidos:</b> Moreau de Justo</p>
+              <p><b>▪ Nombre:</b> Alicia</p>
+              <p><b>▪ Fecha de nacimiento:</b> 11/10/1885</p>
+              <p><b>▪ LC.:</b> 1.884.044</p>
+      </div>
+
+      <h2><u>Datos de contacto</u></h2>
+    
+
+      <img src="imagenes/direccion.jpg"
+      style="max-width:2%;height:auto;>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">"
+
+      <button onclick="FunctionDir()">+/-</button>
+   
+      <div id="direccion"><p><b>▪ Dirección:</b> Juan B. Justo 1922. Chacarita</p>
+        
+      </div>
+
+      <img src="imagenes/mail.jpg"
+      style="max-width:2%;height:auto;>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">"
+
+      <button onclick="FunctionEmail()">+/-</button>
+   
+      <div id="email"><p><b>▪ email:</b> alicia@gmail.com</p>
+        
+      </div>
+
+      <img src="imagenes/telefono.jpg"
+      style="max-width:2%;height:auto;>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">"
+
+      <button onclick="FunctionTel()">+/-</button>
+   
+      <div id="Telefono"><p><b>▪ Celular:</b> 192511317</p>
+        
+      </div>
+
+      <img src="imagenes/linkedin.jpg"
+      style="max-width:2%;height:auto;>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">"
+
+      <button onclick="FunctionLin()">+/-</button>
+   
+      <br> 
+      <div id="link"><p><b>link</b> "https://www.linkedin.com/feed/update/urn:li:activity:6937822009049411584?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6937822009049411584%29"</a>
+      </div>
+
+          
+    
+
+    <h2><u>Formación académica</u></h2>
+    <button onclick="FunctionEstu()">+/-</button>
+
+    <div id= "estudios"> <h3><b>1904 - Maestra - Normal N1 </b></h3>
+        <P>* Referencias: Hipólito Yrigoyen</P>
+        
+        <br>
+        <h3><b>1914 - Médica - UBA </b></h3>
+        <p>Diploma de honor</p>
+        <p>* Referencias: Mario Bravo</p>
+        <br>
+    </div>
+    
+
+   
+    <h2><u>Experiencia laboral</u></h2>
+    <button onclick="FunctionExp()">+ /-</button>
+
+    <div id= exp> <h3><b><u>Médica</u></b></h3>
+        <br>
+        <p>Hizo su residencia en ginecología en el Hospital de Clínicas y atendió a prostitutas y mujeres de bajos recursos, a contramano de lo que hacían sus pares y en concordancia con sus principios: priorizar siempre a los sectores más débiles y olvidados.</p>
+        
+
+        <h3><b><u>Feminista</u></b></h3>
+        <br>
+        <p>Fundó el Ateneo de Mujeres que realizaba publicaciones de avanzada para la época. Desde sus inicios, asumió un compromiso intenso con los derechos humanos, en especial en los referidos a las mujeres. Publicó varios artículos sobre educación y política en la Revista Socialista Internacional, en la cual tenían participación revolucionarias como Rosa Luxemburgo y Clara Zetkin.</p>
+        <br>
+        <p>En 1906 participó en el Congreso Internacional de Libre Pensamiento.  En 1932, elaboró un proyecto de ley de sufragio femenino que fue presentado por el diputado socialista Mario Bravo y que obtuvo la aprobación de los diputados, pero fue rechazado en el Senado al encontrarse ampliamente dominado por los conservadores.
+           En 1947, con la sanción del voto femenino, Alicia Moreau criticó la medida, dado que fue una iniciativa suya y que nunca habían logrado concretar por los impedimentos en el Senado para sancionar leyes que fuesen favorables para las mujeres.</p>
+
+        <h3><b><u>Política</u></b></h3>
+        <br>
+        <p>En 1920 se afilió al Partido Socialista. Fiel defensora de la democracia, abrazó con fuerza y convicción la causa socialista, precisamente como herramienta fundamental orientada a enfrentar las flagrantes desigualdades sociales.</p>
+        <br>
+        <p>Cuando en 1951 las mujeres argentinas pudieron por primera vez votar y ser votadas para cargos nacionales, Moreau fue elegida junto a otras para integrar la lista de candidatos a diputados nacionales socialistas,pero inesperadamente fue detenida en el marco de prohibición política llevada a cabo por Perón y, tras su liberación, debió silenciarse, motivo por el cual irónicamente tampoco pudo votar.</p>
+        <br>
+        <p>En 1975, a los 90 años, fue una de las fundadoras de la Asamblea Permanente por los Derechos Humanos (APDH), convocada por Rosa Pantaleón, junto con el obispo de Neuquén Jaime de Nevares, el rabino Marshall Meyer, el obispo Carlos Gatinoni, Raúl Alfonsín, Oscar Alende, Susana Pérez Gallart, Adolfo Pérez Esquivel y Alfredo Bravo</p>
+        <br>
+        <p>En 1980, fue una de las encargadas de recibir a la Comisión Interamericana de Derechos Humanos de la OEA, una de las acciones internacionales que más dañaron al Proceso de Reorganización Nacional.En el mismo año, como integrante de la Comisión Permanente en Defensa de la Educación (COPEDE), Moreau, en compañía de Adolfo Pérez Esquivel, Ernesto Sabato y Elías Castelnuovo, publicó Por una universidad gratuita y firmó el reclamo inicial por el secuestro y encarcelamiento de Alfredo Bravo.</p>
+        <br>
+        <p>Por su labor social, en 1984 fue elegida «La Mujer del Año» por la Cámara de Diputados de la Nación Argentina, mientras que la Universidad de Buenos Aires la distinguió con el título de «Médica del Siglo».En 1985, fue declarada presidenta honoraria de las Primeras Jornadas de Mujeres Socialistas y designada Ciudadana ilustre de la Ciudad de Buenos Aires por la Legislatura porteña.</p>
+    
+        <br>
+        <br>
+    
+    </div>
+    
+
+       
+    
+
 </body>
 </html>
