@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width", initial-scale=1.0">
     <title>Cv-document</title>
     
+    <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Shantellsans">
     <link rel="stylesheet" type="text/css" href="css/estilo.css" />
     <link rel="icon" type="image/jpeg" href="imagenes/favicon.jpg">
      
@@ -19,48 +21,56 @@
     style="max-width:20%;height:auto;>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    
+
     <nav class="navbar">
         <div class="logo">
-            <a href="#">Mi CV</a>
+            <h1>Curriculum Vitae</h1>
+            
         </div>
-        <input type="checkbox" id="toggler">
-        <label for="toggler" class="navbar-label fas fa-bars fa-inverse fa-lg"></label>
+       
+        <label for="toggler" class="nav justify-content-end"></label>
         <ul class="list menu">
             <li class="nav-item">
-                <a class="nav-link" href="#about-me">Acerca de mí</a>
+                <a class="nav-link" href="#infoper">Información personal</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#education">Educación</a>
+                <a class="nav-link" href="#datos">Datos de contacto</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#experience">Experiencia</a>
+                <a class="nav-link" href="#foracade">Formación Académica</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#idiomas">Idiomas</a>
+                <a class="nav-link" href="#exlab">Experiencia Laboral</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portafolio</a>
-            </li>
+            
         </ul>
     </nav>
 
-    <h1><u>Curriculum Vitae</u></h1>
+    <div class="col-lg-9">
 
-    <h2><u>Información personal</u></h2>
-    <button onclick="FunctionInfo()">+/-</button>
+        <div class="card-header bg-secondary text-white" id="infoper">
+            <h3>Información personal</h3>
+        </div>
+        <div class="card-body">
+            <p> <b>▪ Apellidos:</b> Moreau de Justo</p>
+            <p><b>▪ Nombre:</b> Alicia</p>
+            <p><b>▪ Fecha de nacimiento:</b> 11/10/1885</p>
+            <p><b>▪ LC.:</b> 1.884.044</p>
+            <br> <br> <br> <br> <br> <br> 
+            <br>  <br>  <br>  <br>
+            <br> <br> <br> <br> <br>
 
-    <div id="info">
-        
-        <p><b>▪ Apellidos:</b> Moreau de Justo</p>
-              <p><b>▪ Nombre:</b> Alicia</p>
-              <p><b>▪ Fecha de nacimiento:</b> 11/10/1885</p>
-              <p><b>▪ LC.:</b> 1.884.044</p>
-      </div>
+        </div>
 
-      <h2><u>Datos de contacto</u></h2>
-    
 
-      <img src="imagenes/direccion.jpg"
+        <div class="card-header bg-secondary text-white" id="datos">
+            <h3>Datos de contacto</h3>
+        </div>
+
+        <div class="card-body">
+
+        <img src="imagenes/direccion.jpg"
       style="max-width:2%;height:auto;>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">"
 
@@ -98,42 +108,49 @@
    
       <br> 
       <div id="link"><p><b>link</b> "https://www.linkedin.com/feed/update/urn:li:activity:6937822009049411584?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6937822009049411584%29"</a>
-      </div>
+        <p>  </p>
+        <br>  <br>  <br>  <br>
+        <br> <br> <br> <br> <br>
+        </div>
+      
 
-          
-    
-
-    <h2><u>Formación académica</u></h2>
-    <button onclick="FunctionEstu()">+/-</button>
-
-    <div id= "estudios"> <h3><b>1904 - Maestra - Normal N1 </b></h3>
-        <P>* Referencias: Hipólito Yrigoyen</P>
-        
-        <br>
-        <h3><b>1914 - Médica - UBA </b></h3>
-        <p>Diploma de honor</p>
-        <p>* Referencias: Mario Bravo</p>
-        <br>
     </div>
     
-
-   
-    <h2><u>Experiencia laboral</u></h2>
-    <button onclick="FunctionExp()">+ /-</button>
-
-    <div id= exp> <h3><b><u>Médica</u></b></h3>
+    <div class="card-header bg-secondary text-white" id="foracade">
+        <h3>Formación académica</h3>
+    </div>
+    <div class="card-body">
+        <h4><b>1904 - Maestra - Normal N1 </b></h4>
+            <P>* Referencias: Hipólito Yrigoyen</P>
+            <br>
+            <h4><b>1914 - Médica - UBA </b></h4>
+            <p>Diploma de honor</p>
+            <p>* Referencias: Mario Bravo</p>
+            <br>
+            <p>  </p>
+            <br>  <br>  <br>  <br>
+            <br> <br> <br> <br> <br>
+            </div>
+    </div>
+    
+    <div class="card-header bg-secondary text-white" id="exlab">
+        <h3>Experiencia laboral</h3>
+    </div>
+    <div class="card-body">
+        
+    <div id= exp> <h4><b><u>Médica</u></b></h4>
         <br>
         <p>Hizo su residencia en ginecología en el Hospital de Clínicas y atendió a prostitutas y mujeres de bajos recursos, a contramano de lo que hacían sus pares y en concordancia con sus principios: priorizar siempre a los sectores más débiles y olvidados.</p>
         
 
-        <h3><b><u>Feminista</u></b></h3>
+        <h4><b><u>Feminista</u></b></h4>
         <br>
         <p>Fundó el Ateneo de Mujeres que realizaba publicaciones de avanzada para la época. Desde sus inicios, asumió un compromiso intenso con los derechos humanos, en especial en los referidos a las mujeres. Publicó varios artículos sobre educación y política en la Revista Socialista Internacional, en la cual tenían participación revolucionarias como Rosa Luxemburgo y Clara Zetkin.</p>
         <br>
         <p>En 1906 participó en el Congreso Internacional de Libre Pensamiento.  En 1932, elaboró un proyecto de ley de sufragio femenino que fue presentado por el diputado socialista Mario Bravo y que obtuvo la aprobación de los diputados, pero fue rechazado en el Senado al encontrarse ampliamente dominado por los conservadores.
            En 1947, con la sanción del voto femenino, Alicia Moreau criticó la medida, dado que fue una iniciativa suya y que nunca habían logrado concretar por los impedimentos en el Senado para sancionar leyes que fuesen favorables para las mujeres.</p>
 
-        <h3><b><u>Política</u></b></h3>
+        <h4><b><u>Política</u></b></h4>
         <br>
         <p>En 1920 se afilió al Partido Socialista. Fiel defensora de la democracia, abrazó con fuerza y convicción la causa socialista, precisamente como herramienta fundamental orientada a enfrentar las flagrantes desigualdades sociales.</p>
         <br>
@@ -149,10 +166,7 @@
         <br>
     
     </div>
-    
-
-       
-    
+   
 
 </body>
 </html>
